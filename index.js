@@ -10,4 +10,5 @@ axios.get('http://api.weatherstack.com/current', {params})
     console.log(`Current temperature in ${apiResponse.location.name} is ${apiResponse.current.temperature}℃`);
   }).catch(error => {
     console.log(error);
+    console.log("changes made");
   });
